@@ -11,7 +11,7 @@ The API is implemented as JSON over HTTP using all four verbs (GET/POST/PUT/DELE
 
 All API usage happens through Haravan applications, created by either shop owners for their own shops, or by Haravan Partners for use by other shop owners:
 
-* Shop owners can create applications for themselves through their own admin: http://docs.haravan.com/api/tutorials/creating-a-private-app
+* Shop owners can create applications for themselves through their own admin: https://docs.haravan.com/blogs/authentication/1000017782-create-a-private-app
 * Haravan Partners create applications through their admin: http://app.haravan.com/services/partners
 
 For more information and detailed documentation about the API visit http://api.haravan.com
@@ -54,7 +54,7 @@ HaravanAPI uses ActiveResource to communicate with the REST web service. ActiveR
    with the following parameters:
 
    * ``client_id``– Required – The API key for your app
-   * ``scope`` – Required – The list of required scopes (explained here: http://docs.haravan.com/api/tutorials/oauth)
+   * ``scope`` – Required – The list of required scopes (explained here: https://docs.haravan.com/blogs/authentication/1000017781-oauth)
    * ``redirect_uri`` – Optional – The URL that the merchant will be sent to once authentication is complete. Defaults to the URL specified in the application settings and must be the same host as that URL.
 
    We've added the create_permission_url method to make this easier, first instantiate your session object:
@@ -192,9 +192,7 @@ rake install
 
 ## Additional Resources
 
-API Docs: http://docs.haravan.com/api
-
-Ask questions on the forums: http://ecommerce.haravan.com/c/haravan-apis-and-technology
+API Docs: https://docs.haravan.com/blogs/api-reference
 
 ## Copyright
 
